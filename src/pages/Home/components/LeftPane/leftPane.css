@@ -1,9 +1,11 @@
 .leftPaneBox{
     flex: 2;
-    height:calc(100vh- 60px);
+    height:calc(100vh- 50px);
     overflow-y: scroll;
-
-     
+    font-family: sans-serif; 
+    position: sticky;
+    top: 50px; 
+    z-index: 99;
 }
 
 ::-webkit-scrollbar{
@@ -14,8 +16,7 @@
     background-color: rgb(145, 148, 150);
 }
 ::-webkit-scrollbar-thumb{
-    background-color: rgb(78, 76, 76);
-    
+    background-color: rgb(78, 76, 76);    
 }
 
 

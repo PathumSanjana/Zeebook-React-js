@@ -15,13 +15,14 @@
     margin-left: 10px;
     border-radius: 10px;
     margin-right: 5px;
+    width: 95%;
     }
 
 .postTop {
   margin-top: 10px;
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .postCenter {
